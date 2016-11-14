@@ -1,55 +1,25 @@
 <!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset="utf-8">
+<head>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src="assets/js/d3.min.js"></script> 
+	<script src="assets/js/topojson.v1.min.js"></script> 
+	<script src="assets/js/viewport.js"></script> 
+	<script scr="assets/js/turf.js"></script> 
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheet/map.css">
+  	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet'/>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head> 
 
-    <title>Unintended Consequences</title>
-
- </head>
-
- <body id="home">
-  <div class="container">
-
-    <!-- Title -->
-    <div class="row">
-      <div class="col-xs-3 col-xs-offset-1 title">
-        <h1>Unintended Consequences</h1>
-      </div>
-    </div>
-
-    <!-- Subtitle -->
-    <div class="row">
-      <div class="col-xs-6 col-xs-offset-1">
-        <h3>Human Rights and U.S. Goverment Purchases in the Persian Gulf</h3>
-      </div>
-    </div>
-
-    <!-- Call to Action -->
-    <div class="row">
-      <div class="col-xs-6 col-xs-offset-1">
-        <a href="map.html" class="start"><h4 class="seemore">Start</h4></a>
-      </div>
-    </div>
-
-
-   <!-- Footer -->
-    <div class="row navbar-fixed-bottom copyright">
-      <div class="col-xs-6 col-xs-offset-3 text-center">
-      <p>This visualization is designed for a minimum resolution of 1024x768px</p>
-<!--        <img class="logo-nyu" src="assets/imgs/logocenterwhite.png">-->
-      </div>
-    </div>
-
-
-  </div>
- </body>
-
-</html>
+<body>
+	<div id="map"> </div> 
+	<svg id="overlay"></svg> 
+	<div id="control">
+		<span class="arrow glyphicon glyphicon-chevron-right" id="nextChapter"> </span> 
+	</div>  
+	<!-- add display elements using javascript --> 
+	<script src="assets/js/main-map.js"> </script> 
+</body>
