@@ -1,0 +1,165 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#home{
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top left, rgba(0, 47, 75, 0.80), rgba(220,66, 37, 0.60)), url('/assets/imgs/home@unauthorize.jpg') center center / cover;
+  background: -o-linear-gradient(top left, rgba(0, 47, 75, 0.80), rgba(220,66, 37, 0.60)), url('assets/imgs/home@unauthorize.jpg') center center / cover;
+  background: linear-gradient(to bottom right, rgba(0, 47, 75, 0.80), rgba(220,66, 37, 0.60)), url('/assets/imgs/home@unauthorize.jpg') center center / cover;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  color:#d9d9d9;
+}
+
+h1{
+  font-size: 4.5em;
+  text-decoration: underline;
+}
+
+
+h3{
+  font-size: 1.2em;
+  font-family: 'Lora', serif;
+}
+.seemore{
+  font-size: 1em;
+}
+
+.seemore:hover{
+  color: black;
+}
+
+.start:hover {
+  background: #d9d9d9;
+  text-decoration: none;
+}
+
+.start:hover h4 {
+  color: rgba(0, 47, 75, 0.50);
+}
+
+p{
+  font-size: 1.2em;
+}
+
+
+.title {
+  margin-top: 20em;
+}
+
+.start{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 1px 8px;
+  border: 1px solid white;
+}
+
+
+.logo-nyu {
+  position: absolute;
+  bottom: 1%;
+  left: 10%;
+
+}
+
+.logo-nyu img{
+  max-width: 150px;
+}
+
+
+.copyright {
+  margin: 10px;
+}
+
+.copyright p{
+  font-size: 0.7em;
+}
+
+#map {
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -999;
+  width:1700px;
+  height: 1200px;
+}
+
+.description{
+  background: -webkit-linear-gradient(top left, rgba(0, 47, 75, 0.70), rgba(220,66, 37, 0.06));
+  background: -o-linear-gradient(top left, rgba(0, 47, 75, 0.70), rgba(220,66, 37, 0.06));
+  background: linear-gradient(to bottom right, rgba(0, 47, 75, 0.70), rgba(220,66, 37, 0.06));
+  padding: 30px;
+  height: 100%;
+  width: 30%;
+  padding-top: 5%;
+
+}
+
+.description h4{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 2.4em;
+  color:white;
+  border-bottom: 3px solid white;
+}
+
+.description h6{
+  font-family: 'Lora', serif;
+  padding-top: 1px;
+  font-size: 1em;
+  color:white;
+}
+
+.description p{
+  font-size: 1em;
+}
+
+
+#progressBar{
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: -48%;
+}
+
+#chapters{
+  margin-top: 100px;
+}
+
+#chapters h4{
+  display: inline-block;
+  background: white;
+  padding: 3px;
+  color: black;
+  font-size: 1.4em;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#navegation{
+    margin-top: 10em;
+}
+
+#navegation span{
+  color:white;
+  font-size: 2em;
+}
+
+#navegation p{
+  font-size: .8em;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

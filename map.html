@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet'/> -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <title>Unintended Consequences</title>
+
+  </head>
+
+  <body id="vis">
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Title -->
+    <div class="description">
+      <div class="row" id="titleMap">
+        <div class="col-xs-12 text-center">
+          <h4>Unintended</h4>
+          <h4>Consequences</h4>
+          <h6>Human Rights and U.S. Government Purchases in the Persian Gulf</h6>
+        </div>
+      </div>
+
+      <div class="row" id="chapters">
+        <div class="col-xs-12 text-center">
+          <h4> Chapter One: The Context</h4>
+        </div>
+
+        <div class="col-xs-10 col-xs-offset-1 text-center">
+          <p>The economic growth in oil-producing Gulf States like Saudi Arabia, Qatar, Bahrain, Kuwait, the UAE, and Oman largely tracked in tandem with the price of oil, so that massive economic growth occurred between 1973 and 1980, followed by smaller contractions between 1980 and 1986, and steady but relatively stagnant growth between 1986 and 1998. </p>
+        </div>
+
+        <div class="col-xs-10 col-xs-offset-1 text-center">
+          <p>Following another dramatic price collapse in December 1998 to levels not seen since before 1973, the price of oil began an unprecedented and dramatic rise, peaking only in 2014.  </p>
+        </div>
+
+      </div>
+
+      <div class="row text-center" id="navegation">
+        <div class="col-xs-2">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" id="previous"></span>
+          <p>Previous</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="col-xs-8 text-center">
+          <div id="progressBar"></div>
+        </div>
+
+        <div class="col-xs-2">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" id="next"></span>
+          <p>Next</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo-nyu">
+      <img src="assets/imgs/logocenterwhite.png">
+    </div>
+
+
+    <!-- Info -->
+    <!-- <div class="col-xs-4 text-right">
+      <h6>About</h6>
+      <h6>Report</h6>
+      <h6>Credits</h6>
+    </div> -->
+
+    <!-- Js -->
+    <script src="libraries/d3.min.js"></script>
+    <script src="libraries/topojson.v1.min.js"></script>
+    <script src="libraries/viewport.js"></script>
+    <script scr="libraries/turf.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
+
+    <script src="bower_components/progressbar.js/dist/progressbar.min.js"></script>
+
+    <script src="assets/js/map.js"></script>
+  </body>
+
+</html>
